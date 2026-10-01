@@ -24,7 +24,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 @Composable
-fun contohColumn(modifier: Modifier = Modifier) {
+fun ContohColumn(modifier: Modifier = Modifier) {
     Column(
         modifier = modifier
             .padding(top = 20.dp, start = 20.dp)
@@ -35,7 +35,7 @@ fun contohColumn(modifier: Modifier = Modifier) {
 }
 
 @Composable
-fun contohRow(modifier: Modifier = Modifier) {
+fun ContohRow(modifier: Modifier = Modifier) {
     val kota = stringResource(id = R.string.kota)
     Row(
         modifier = modifier
@@ -174,7 +174,7 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
                 contentScale = ContentScale.Fit
             )
             Text(
-                text = "My",
+                text = "My Journey",
                 fontSize = 50.sp,
                 color = Color.Red,
                 fontWeight = FontWeight.Bold,
