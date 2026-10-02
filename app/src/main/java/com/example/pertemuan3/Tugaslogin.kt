@@ -93,4 +93,16 @@ fun TugasloginScreen() {
                 color = Color.White,
                 modifier = Modifier.padding(bottom = 24.dp)
             )
+            Image(
+                painter = painterResource(id = R.drawable.profile_picture),
+                contentDescription = "Profile Picture",
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .size(140.dp)
+                    .clip(CircleShape)
+                    .border(2.dp, Color.White, CircleShape)
+            )
+        }
+    }
+}
 
