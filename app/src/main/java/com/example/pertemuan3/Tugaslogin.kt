@@ -46,3 +46,16 @@ fun TugasloginScreen() {
                 .fillMaxSize()
                 .alpha(0.6f)
         )
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(24.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Center
+        ) {
+            Text(
+                text = "Login",
+                fontSize = 28.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
+            )
