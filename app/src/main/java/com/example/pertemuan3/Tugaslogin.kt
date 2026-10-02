@@ -59,3 +59,14 @@ fun TugasloginScreen() {
                 fontWeight = FontWeight.Bold,
                 color = Color.Blue
             )
+
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = "Logo UMY",
+                modifier = Modifier
+                    .size(90.dp)
+                    .clip(CircleShape)
+                    .background(Color.White)
+            )
+
+            Spacer(modifier = Modifier.height(16.dp))
