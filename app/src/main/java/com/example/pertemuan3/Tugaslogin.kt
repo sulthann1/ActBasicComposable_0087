@@ -77,3 +77,11 @@ fun TugasloginScreen() {
                 fontWeight = FontWeight.Bold,
                 color = Color.Red
             )
+
+            Text(
+                text = "Sulthan Awaliya Firmansyah",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue,
+                modifier = Modifier.padding(bottom = 4.dp)
+            )
