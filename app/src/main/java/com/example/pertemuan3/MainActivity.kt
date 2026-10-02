@@ -20,7 +20,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             Pertemuan3Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    TataletakBoxColumnRow(
+                    // Ubah dari TataletakBoxColumnRow menjadi TugasloginScreen
+                    TugasloginScreen(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -28,6 +29,8 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
+
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
