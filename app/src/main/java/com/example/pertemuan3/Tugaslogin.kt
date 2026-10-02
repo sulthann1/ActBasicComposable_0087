@@ -31,7 +31,7 @@ class TugasloginActivity : ComponentActivity() {
 }
 
 @Composable
-fun TugasloginScreen() {
+fun TugasloginScreen(modifier: Modifier = Modifier) {
     Box(
         modifier = Modifier
             .fillMaxSize()
@@ -57,16 +57,15 @@ fun TugasloginScreen() {
                 text = "Login",
                 fontSize = 28.sp,
                 fontWeight = FontWeight.Bold,
-                color = Color.Blue
+                color = Color.White
             )
 
             Image(
                 painter = painterResource(id = R.drawable.logo_umy),
                 contentDescription = "Logo UMY",
                 modifier = Modifier
-                    .size(90.dp)
+                    .size(240.dp)
                     .clip(CircleShape)
-                    .background(Color.White)
             )
 
             Spacer(modifier = Modifier.height(16.dp))
@@ -75,14 +74,14 @@ fun TugasloginScreen() {
                 text = "Nama",
                 fontSize = 14.sp,
                 fontWeight = FontWeight.Bold,
-                color = Color.Red
+                color = Color(0xFFD4AF37)
             )
 
             Text(
                 text = "Sulthan Awaliya Firmansyah",
                 fontSize = 16.sp,
                 fontWeight = FontWeight.Bold,
-                color = Color.Blue,
+                color = Color.White,
                 modifier = Modifier.padding(bottom = 4.dp)
             )
 
@@ -90,7 +89,7 @@ fun TugasloginScreen() {
                 text = "20240140087",
                 fontSize = 14.sp,
                 fontWeight = FontWeight.Medium,
-                color = Color.White,
+                color = Color(0xFFB0BEC5),
                 modifier = Modifier.padding(bottom = 24.dp)
             )
             Image(
