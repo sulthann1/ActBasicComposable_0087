@@ -29,3 +29,6 @@ class TugasloginActivity : ComponentActivity() {
         }
     }
 }
+
+@Composable
+fun TugasloginScreen() {
