@@ -85,3 +85,12 @@ fun TugasloginScreen() {
                 color = Color.Blue,
                 modifier = Modifier.padding(bottom = 4.dp)
             )
+
+            Text(
+                text = "20240140087",
+                fontSize = 14.sp,
+                fontWeight = FontWeight.Medium,
+                color = Color.White,
+                modifier = Modifier.padding(bottom = 24.dp)
+            )
+
